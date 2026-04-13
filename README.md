@@ -1,6 +1,6 @@
 # Skin Tumor Analysis
 
-R script for analysis and visualization of longitudinal skin tumor measurements in mice across six genotypes differing in chromosomal instability (CIN) levels.
+R scripts for analysis and visualization of longitudinal skin tumor measurements in mice across six genotypes differing in chromosomal instability (CIN) levels. Two experiments are included: the main skin tumor experiment and the DMBA-CIN experiment.
 
 ## Contents
 
@@ -10,7 +10,7 @@ R script for analysis and visualization of longitudinal skin tumor measurements 
 ├── output/                         # Generated plots and CSVs (not tracked by git)
 ├── tumor_analysis_cleaned.R        # Main analysis script
 └── README.md
-```
+├── tumor_analysis_dmba_cleaned.R   # DMBA-CIN experiment analysis
 
 ## Input format
 
@@ -65,6 +65,8 @@ R packages (version numbers reflect those used during development — update aft
 | `tumor_growth_rates_boxplot.png` | Exponential growth rates per genotype |
 | `incidence_rate_overall_stats.png` | Incidence rate from experiment start |
 | `incidence_rate_from_onset_stats.png` | Incidence rate from first tumor onset |
+
+| `average_tumor_counts_per_day_genotype_sizeclass_barplot_lower.png` | Average tumor counts over time by genotype and size class (DMBA experiment) |
 
 ### CSVs
 Key intermediate data files saved for downstream use or verification, including long-format tumor data, growth rates, incidence rates, and statistical test results.
