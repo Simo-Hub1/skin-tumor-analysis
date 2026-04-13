@@ -11,6 +11,7 @@ R scripts for analysis and visualization of longitudinal skin tumor measurements
 ├── tumor_analysis_cleaned.R        # Main analysis script
 └── README.md
 ├── tumor_analysis_dmba_cleaned.R   # DMBA-CIN experiment analysis
+├── tumor_analysis_carprofen_cleaned.R  # Carprofen treatment experiment analysis
 
 ## Input format
 
@@ -67,6 +68,9 @@ R packages (version numbers reflect those used during development — update aft
 | `incidence_rate_from_onset_stats.png` | Incidence rate from first tumor onset |
 
 | `average_tumor_counts_per_day_genotype_sizeclass_barplot_lower.png` | Average tumor counts over time by genotype and size class (DMBA experiment) |
+
+| `average_tumor_counts_per_condition_over_time.png` | Average tumor counts over time by genotype and treatment condition (carprofen experiment) |
+| `incidence_rate_per_mouse_stats.png` | Tumor incidence rate per mouse per week with Wilcoxon treatment effect (carprofen experiment)|
 
 ### CSVs
 Key intermediate data files saved for downstream use or verification, including long-format tumor data, growth rates, incidence rates, and statistical test results.
