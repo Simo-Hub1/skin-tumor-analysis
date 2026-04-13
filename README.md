@@ -1,6 +1,6 @@
 # Skin Tumor Analysis
 
-R scripts for analysis and visualization of longitudinal skin tumor measurements in mice across six genotypes differing in chromosomal instability (CIN) levels. Two experiments are included: the main skin tumor experiment and the DMBA-CIN experiment.
+R scripts for analysis and visualization of skin tumor and cell growth experiments in CIN mouse models. Four experiments are included: the main skin tumor experiment, the DMBA-CIN experiment, the carprofen treatment experiment, and a resazurin cell growth assay on organoids.
 
 ## Contents
 
@@ -12,6 +12,7 @@ R scripts for analysis and visualization of longitudinal skin tumor measurements
 └── README.md
 ├── tumor_analysis_dmba_cleaned.R   # DMBA-CIN experiment analysis
 ├── tumor_analysis_carprofen_cleaned.R  # Carprofen treatment experiment analysis
+├── tumor_analysis_resazurin_cleaned.R  # Resazurin cell growth assay analysis
 
 ## Input format
 
@@ -71,6 +72,8 @@ R packages (version numbers reflect those used during development — update aft
 
 | `average_tumor_counts_per_condition_over_time.png` | Average tumor counts over time by genotype and treatment condition (carprofen experiment) |
 | `incidence_rate_per_mouse_stats.png` | Tumor incidence rate per mouse per week with Wilcoxon treatment effect (carprofen experiment)|
+
+| `resazurin_slopes_stats_day1_day3.png` | Cell growth rates (slope Day 1 to Day 3) with Tukey stats and Cohen's d per condition (Organoids experiment)|
 
 ### CSVs
 Key intermediate data files saved for downstream use or verification, including long-format tumor data, growth rates, incidence rates, and statistical test results.
