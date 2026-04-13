@@ -1,0 +1,13 @@
+# Data and outputs — not tracked
+data/
+output/
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
